@@ -1,48 +1,272 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-MX">
     <head>
-        <meta charset="utf-8"/>
+        <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link href="./vendor/normalize.css" rel="stylesheet"/>
-        <link href="./styles/style.css" rel="stylesheet"/>
         <title>
-            Document
+            Triple Peaks Library
         </title>
+        <link rel="shortcut icon" href="favicon.ico"/>
+        <link rel="stylesheet" href="./vendor/normalize.css"/>
+        <link rel="stylesheet" href="./styles/style.css"/>
     </head>
     <body>
         <div class="page">
             <header class="header">
                 <nav class="nav">
+                    <img src="./images/logo.svg" alt="Triple Peaks library logo" class="nav__logo"/>
                     <ul class="nav__links">
-                        <li class="nav__link">
-                            <a href="#">
-                                Home
+                        <li>
+                            <a href="#staff" class="nav__link">
+                                Our staff's picks
                             </a>
                         </li>
-                        <li class="nav__link">
-                            <a href="#">
-                                Services
+                        <li>
+                            <a class="nav__link" href="#events">
+                                Events
                             </a>
                         </li>
-                        <li class="nav__link">
-                            <a href="#">
+                        <li>
+                            <a class="nav__link" href="#membership">
+                                Become a member
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav__link" href="#footer">
                                 Contact us
                             </a>
                         </li>
                     </ul>
                 </nav>
-                <div class="header__content">
-                    <div class="header__info">
-                        <h1 class="header__title">
-                            Título Principal
+                <section id="header-content" class="header__content">
+                    <div>
+                        <h1 id="header-title" class="header__title">
+                            Welcome to the Triple Peaks Library
                         </h1>
-                        <p class="header__description">
-                            Site description
+                        <p id="header-description" class="header__description">
+                            We are pleased to open the doors of our library to everyone! Come and expand your knowledge on development, or simply come to work or study with us. This is a great place for students
                         </p>
                     </div>
+                    <img id="library-image" src="./images/inside_the_library.png" alt="Inside library image" class="header__image"/>
+                </section>
+                <div id="hero-footer" class="header__footer">
+                    <p class="header__address">
+                        Triple Peaks, 200 Success Avenue
+                    </p>
                 </div>
             </header>
-            <main></main>
+            <main class="content page__content">
+                <section id="staff" class="staff content__staff">
+                    <h2 class="staff__title">
+                        Our readers Picks
+                    </h2>
+                    <p class="staff__subtitle">
+                        Which our readers love
+                    </p>
+                    <ul class="cards staff__cards">
+                        <li class="card">
+                            <div class="card__content">
+                                <h3 class="card__title">
+                                    Ham on Rye
+                                </h3>
+                                <p class="card__text">
+                                    A semi-autobiographical novel about Henry Chinaski's troubled youth. It follows his awkwardness, disdain for society, and struggles with fitting in. From childhood to his teenage years, the novel explores alienation and the harsh realities of growing up, with Bukowski's raw and darkly humorous prose.
+                                </p>
+                                <p class="card__footer">
+                                    Charles Bukowski
+                                </p>
+                            </div>
+                        </li>
+                        <li class="card ">
+                            <div class="card__content">
+                                <h3 class="card__title">
+                                    The Great Gatsby
+                                </h3>
+                                <p class="card__text">
+                                    The story of Jay Gatsby, a mysterious millionaire, and his obsession with the love of his life, Daisy Buchanan. Set in the Jazz Age, the novel explores themes of wealth, class, and the American Dream. Through Nick Carraway's perspective, it delves into the illusions and disillusionments of the era, ultimately revealing the tragic consequences of Gatsby's pursuit.
+                                </p>
+                                <p class="card__footer">
+                                    F. Scott Fitzgerald
+                                </p>
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="card__content">
+                                <h3 class="card__title">
+                                    Demian
+                                </h3>
+                                <p class="card__text">
+                                    The journey of Emil Sinclair, a young man torn between the worlds of innocence and experience. Guided by the mysterious Max Demian, Sinclair explores themes of self-discovery, duality, and spiritual awakening. The novel delves into the complexities of identity, individuality, and the path toward understanding one’s true self.
+                                </p>
+                                <p class="card__footer">
+                                    Hermann Hesse
+                                </p>
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div class="card__content">
+                                <h3 class="card__title">
+                                    Calvin and Hobbes: Revenge of the Babysitter
+                                </h3>
+                                <p class="card__text">
+                                    A collection of comic strips that follow the mischievous Calvin and his trusty tiger friend Hobbes as they embark on wild adventures and cause trouble. The strips explore Calvin’s imagination, his antics, and his humorous views on life, providing a mix of humor, satire, and heartwarming moments.
+                                </p>
+                                <p class="card__footer">
+                                    Bill Watterson
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section id="events" class="events">
+                    <div class="events__content">
+                        <h2 class="events__heading">
+                            Upcoming events:
+                        </h2>
+                        <h3 class="events__title">
+                            In Honor of Joan Feynman: Women in Astrophysics
+                        </h3>
+                        <div class="event-info events__info-section">
+                            <div class="event-info__item">
+                                <img src="./images/icon_calendar.svg" alt="Calendar icon" class="event-info__icon"/>
+                                <p class="event-info__text">
+                                    Monday, January 12
+                                </p>
+                            </div>
+                            <div class="event-info__item">
+                                <img src="./images/icon_pin.svg" alt="Pin icon" class="event-info__icon"/>
+                                <p class="event-info__text">
+                                    Triple Peaks Library Conference and Virtual Room
+                                </p>
+                            </div>
+                        </div>
+                        <p class="events__description">
+                            At this event, in which we celebrate our library's name, our guest will take us on a journey to meet some of the most important women researchers in the world of space science. It's easy to fall into the misconception that this field is primarily male-dominated, but our conference seeks to change that notion and prove that this hasn't been the case since at least the 17th century.
+                        </p>
+                        <a href="#" class="events__more">
+                            More events &rarr;
+                        </a>
+                    </div>
+                    <div class="wrapper events__cover">
+                        <img src="./images/cafe.png" alt="Illustration of a cafe" class="events__image"/>
+                        <div class="person person_name_feynman">
+                            <p class="person__caption">
+                                Joan Feynman
+                            </p>
+                            <img src="./images/person_feynman.png" alt="Joan Feynman photo" class="person__image person__image_size_l"/>
+                        </div>
+                        <div class="person person_name_burbidge">
+                            <p class="person__caption">
+                                Margaret Burbidge
+                            </p>
+                            <img src="./images/person_burbidge.png" alt="Joan burbidge photo" class="person__image person__image_size_m"/>
+                        </div>
+                        <div class="person person_name_tarter">
+                            <p class="person__caption">
+                                Jill Tarter
+                            </p>
+                            <img src="./images/person_tarter.png" alt="Jill Tarter photo" class="person__image person__image_size_m"/>
+                        </div>
+                        <div class="person person_name_cannon">
+                            <img src="./images/person_cannon.png" alt="Annie Jump Cannon photo" class="person__image person__image_size_m"/>
+                            <p class="person__caption">
+                                Annie Jump Cannon
+                            </p>
+                        </div>
+                        <div class="person person_name_mitchell">
+                            <img src="./images/person_mitchell.png" alt="Maria Mitchell photo" class="person__image person__image_size_s"/>
+                            <p class="person__caption">
+                                Maria Mitchell
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="membership" class="membership">
+                    <h2 class="membership__title">
+                        Becoming a member is easy!
+                    </h2>
+                    <ul class="membership__steps">
+                        <li class="step">
+                            <h3 class="step__title">
+                                Step 1
+                                <img src="./images/icon_step_forward.svg" alt="icon forward" class="step__icon"/>
+                            </h3>
+                            <p class="step__description">
+                                Complete the membership form online or in person.
+                            </p>
+                        </li>
+                        <li class="step">
+                            <h3 class="step__title">
+                                Step 2
+                                <img src="./images/icon_step_forward.svg" alt="icon forward" class="step__icon"/>
+                            </h3>
+                            <p class="step__description">
+                                Come and pick up your library card at the reception desk.
+                            </p>
+                        </li>
+                        <li class="step">
+                            <h3 class="step__title">
+                                Step 3
+                                <img src="./images/icon_step_forward.svg" alt="icon forward" class="step__icon"/>
+                            </h3>
+                            <p class="step__description">
+                                Sign the back of the card.
+                            </p>
+                        </li>
+                        <li class="step">
+                            <h3 class="step__title">
+                                Step 4
+                                <img src="./images/icon_step_finish.svg" alt="icon finish" class="step__icon"/>
+                            </h3>
+                            <p class="step__description">
+                                Enjoy the amazing benefits of our membership!
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+            </main>
+            <footer id="footer" class="footer">
+                <div class="footer__columns">
+                    <div class="footer__column">
+                        <img class="footer__logo" src="./images/logo_white.svg" alt="Triple10 Logo"/>
+                    </div>
+                    <div class="footer__column footer__column_content_hours">
+                        <h3 class="footer__column-heading">
+                            Hours
+                        </h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                Monday to Friday: 9:00 a.m. — 8:00 p.m.
+                            </li>
+                            <li class="footer__list-item">
+                                Saturdays and Sundays: 10:00 a.m. — 6:00 p.m.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__column footer__column_content_social">
+                        <h3 class="footer__column-heading">
+                            Social networks
+                        </h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a class=" footer__column-link" href="#">
+                                    <img class="footer__social-icon" src="./images/facebook_white.svg" alt="Facebook icon"/>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__column-link" href="#">
+                                    <img class="footer__social-icon" src="./images/instagram_white.svg" alt="Instagram Icon"/>
+                                    Instagram
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="footer__copyright">
+                    © 2025 Francisco Sanchez
+                </p>
+            </footer>
         </div>
     </body>
 </html>

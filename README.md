@@ -1,9 +1,19 @@
-# Proyecto 3: Biblioteca Triple Peaks
+- # Triple Peaks Library
 
-La página web de la Biblioteca Triple Peaks es el tercer proyecto en el programa de Desarrollo web de TripleTen. Fue creado utilizando HTML y CSS, con base en un brief de diseño.
+## Project Overview
 
-## Características del proyecto
+Triple Peaks Library is a responsive and accessible website designed to showcase a modern library's offerings. The site features curated book recommendations, upcoming events, membership information, and contact details, all presented with a clean and user-friendly interface.
 
-- HTML5 semántico
-- Flexbox
-- Posicionamiento
+This project emphasizes semantic HTML, responsive design, and adherence to accessibility standards, ensuring a seamless experience across various devices.
+
+---
+
+## Technologies Used
+
+- **HTML5**: For structured and semantic content.
+- **CSS3**: For styling and layout, utilizing:
+  - Flexbox
+ 
+    
+ # visit site
+ https://qv-vq.github.io/web_project_library_es/
